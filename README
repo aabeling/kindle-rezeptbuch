@@ -1,0 +1,15 @@
+Creates a kindle ebook in MOBI format from some confluence markup content.
+
+It uses wikitext first to create HTML from confluence markup.
+Secondly it uses kindlegen to create an ebook from HTML.
+
+kindlegen must be installed on your local machine. See src/main/shell/kindlegen.sh
+
+After running
+# mvn package
+the ebook can hopefully be found in directory
+target/kindle
+
+Ready to be uploaded to amazon.
+
+
